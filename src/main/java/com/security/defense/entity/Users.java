@@ -4,12 +4,12 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name="users")
-public class User {
+public class Users {
 
-    public User() {
+    public Users() {
     }
 
-    public User(Long id, String username, String password) {
+    public Users(Long id, String username, String password) {
         this.id = id;
         this.username = username;
         this.password = password;
